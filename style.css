@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body{
+    background-color: var(--background-color); /* cor utilizada no fundo da pagina */
+    font-family: 'Kumbh Sans', sans-serif; /* Fonte e seu peso */
+    font-weight: 700;
+    height: 100vh; /* Altura da pagina em viewport (1 vh = 1%)*/
+    font-size: 18px;
+    
+}
+.container{ /* usei a classe container para centralizar o elemento main*/
+    display: flex;
+    justify-content: center; /*usei para centralizar horizontalmente*/
+    align-items: center;
+    height: 100%; /* usei para usar 100% da altura da pagina centralixando na vertical com o align item*/
+}
+.cartao{ /* usei a classe cartao para centralizar os elementos dentro do container*/
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    width: 320px;
+    height: 350px;
+}
+ .perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+}
+hr{
+    width: 100%;
+}
+img{/* usei para diminuir o tamanho da imagem*/
+    border-radius: 50%;
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+}
+.idade, .local, .social{
+    font-weight: 400;
+}
+.informacoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.numero{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
